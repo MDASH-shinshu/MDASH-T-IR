@@ -12,8 +12,8 @@
 ## GitHubからeALPSへのデプロイ方法
 
 1. 基本的に，Google colab版をmasterとしてから，Jupyter Notebook版としてコピー後 調整する． (.ipynb)
-2. Jupyter Notebook : 印刷プレビュー経由でPDF保存する．(.pdf)
-3. Jupyter Notebook : HTML版をエクスポートする． (.html)
+2. Jupyter Notebook : HTML版をエクスポートする． (.html)
+3. Jupyter Notebook : 印刷プレビュー経由でPDF保存する．(.pdf)
 4. Jupyter Notebook : Slide指定でRISEの動作を確認後， Reveal.js slides版をエクスポートする． (.slides.html) <https://revealjs.com/>
 
 ## 目次
