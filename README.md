@@ -30,20 +30,23 @@
 
 # memo
 
+2024.2.27 URL変更された
+
 ## 学外連携・その他 eALPS URL
 
 ### 工学教育寄附講座
 
 * 産学連携 / 工学教育寄附講座
-<https://lms.ealps.shinshu-u.ac.jp/other/course/index.php?categoryid=16>
+<https://lms.ealps.shinshu-u.ac.jp/other/course/index.php?categoryid=14>
 
 * データサイエンス概論
-<https://lms.ealps.shinshu-u.ac.jp/other/course/view.php?id=96>
+<https://lms.ealps.shinshu-u.ac.jp/other/course/view.php?id=78>
 * データエンジニアリング概論
-<https://lms.ealps.shinshu-u.ac.jp/other/course/view.php?id=97>
+<https://lms.ealps.shinshu-u.ac.jp/other/course/view.php?id=77>
 * データマイニングと機械学習概論
-<https://lms.ealps.shinshu-u.ac.jp/other/course/view.php?id=98>
+<https://lms.ealps.shinshu-u.ac.jp/other/course/view.php?id=79>
 * 画像認識へのAIの適用（宮尾先生）
-<https://lms.ealps.shinshu-u.ac.jp/other/course/view.php?id=99>
+<https://lms.ealps.shinshu-u.ac.jp/other/course/view.php?id=80>
 * AI技術による自然言語処理ツール入門（小形先生）
-<https://lms.ealps.shinshu-u.ac.jp/other/course/view.php?id=100>
+<https://lms.ealps.shinshu-u.ac.jp/other/course/view.php?id=81>
+
