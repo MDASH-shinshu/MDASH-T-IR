@@ -40,9 +40,9 @@
 <https://lms.ealps.shinshu-u.ac.jp/other/course/index.php?categoryid=14>
 
 * データサイエンス概論
-<https://lms.ealps.shinshu-u.ac.jp/other/course/view.php?id=78>
-* データエンジニアリング概論
 <https://lms.ealps.shinshu-u.ac.jp/other/course/view.php?id=77>
+* データエンジニアリング概論
+<https://lms.ealps.shinshu-u.ac.jp/other/course/view.php?id=78>
 * データマイニングと機械学習概論
 <https://lms.ealps.shinshu-u.ac.jp/other/course/view.php?id=79>
 * 画像認識へのAIの適用（宮尾先生）
