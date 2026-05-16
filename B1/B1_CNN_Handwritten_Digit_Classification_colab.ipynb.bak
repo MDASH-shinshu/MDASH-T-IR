@@ -82,7 +82,6 @@
    "source": [
     "import tensorflow as tf  #TensorFlowモジュールのインポート\n",
     "from keras import datasets, layers, models #Kerasモジュール内の関数名をインポート\n",
-    "import matplotlib.pyplot as plt #Matplotlibモジュールのインポート\n",
     "(train_images, train_labels), (test_images, test_labels) = datasets.mnist.load_data() #数字画像データの読み込み\n",
     "train_images = train_images.reshape((60000, 28, 28, 1)) #学習データの形状を設定(60000枚の画像、各画像は28x28画素、各画素はグレースケール)\n",
     "test_images = test_images.reshape((10000, 28, 28, 1)) #テストデータの形状設定(10000枚の画像、各画像は28x28画素、各画素はグレースケール)\n",
@@ -305,7 +304,7 @@
     }
    ],
    "source": [
-    "history = model.fit(train_images, train_labels, epochs=5,\n                    validation_data=(test_images, test_labels)) #学習データの学習、学習回数は5回"
+    "model.fit(train_images, train_labels, epochs=5) #学習データの学習、学習回数は5回"
    ]
   },
   {
@@ -367,41 +366,6 @@
    },
    "source": [
     "結果から、テストデータの認識率は99.28%となっていることがわかる。"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "学習の各エポックにおける認識率と誤差の推移をグラフで確認してみよう。",
-    "認識率（accuracy）と評価データに対する認識率（val_accuracy）の差が大きい場合は、",
-    "過学習（overfitting）が起きているサインである。"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 4))\n",
-    "\n",
-    "ax1.plot(history.history['accuracy'],     label='学習データ')\n",
-    "ax1.plot(history.history['val_accuracy'], label='評価データ')\n",
-    "ax1.set_title('認識率の推移')\n",
-    "ax1.set_xlabel('エポック')\n",
-    "ax1.set_ylabel('認識率')\n",
-    "ax1.legend()\n",
-    "\n",
-    "ax2.plot(history.history['loss'],     label='学習データ')\n",
-    "ax2.plot(history.history['val_loss'], label='評価データ')\n",
-    "ax2.set_title('誤差の推移')\n",
-    "ax2.set_xlabel('エポック')\n",
-    "ax2.set_ylabel('誤差')\n",
-    "ax2.legend()\n",
-    "\n",
-    "plt.tight_layout()\n",
-    "plt.show()"
    ]
   },
   {
