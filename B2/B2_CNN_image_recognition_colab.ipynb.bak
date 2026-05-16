@@ -174,7 +174,7 @@
     "図42に、カラー画像認識に使用する畳み込みニューラルネットワークの構造を示し、この構造を実現するためのプログラムを示す。以下、プログラム行と図を対照しながら、各部の説明をする。\n",
     "\n",
     "<figure>\n",
-    "<img src='https://raw.githubusercontent.com/MDASH-shinshu/MDASH-T-IR/main/B2/figures/fig42.png' alt='CNNの構造' width='700' border='1'>\n",
+    "<img src='https://raw.githubusercontent.com/MDASH-shinshu/MDASH-T-IR/main/B2/figures/fig43.png' alt='CNNの構造' width='700' border='1'>\n",
     "<figcaption>図42　CNNの構造</figcaption>\n",
     "</figure>\n"
    ]
@@ -459,7 +459,7 @@
    "source": [
     "import numpy as np                            #Numpyモジュールのインポート\n",
     "image = test_images[1]                        #評価用データの2番目の画像を抽出\n",
-    "plt.imshow(image)                             #評価用データの2番目の画像を表示\n",
+    "plt.imshow(image)                             #学習用データの最初の画像を指定\n",
     "plt.show()                                    #画像の表示\n",
     "ex_image = image[np.newaxis, ...]             #imageの配列の次元を1つ増やし、(1,32,32,3)の形式とする\n",
     "predict_image = model.predict(ex_image)       #学習済みのCNNを使って画像を認識\n",
@@ -602,7 +602,7 @@
    ],
    "source": [
     "from PIL import Image                                                                        #Pillowモジュールの読み込み\n",
-    "orgimg = Image.open('/content/drive/MyDrive/Colab Notebooks/dog_image.jpg').convert('RGB').resize((32,32))  #Googleドライブからdog_image.jpgを読み込み、画像サイズを32x32とする\n",
+    "orgimg = Image.open('/content/drive/MyDrive/Colab Notebooks/dog_image.jpg').resize((32,32))  #Googleドライブからdog_image.jpgを読み込み、画像サイズを32x32とする\n",
     "image = np.array(orgimg)/255.0                                                               #Pillow形式からNumPy形式への変換、画素値を0-1に正規化\n",
     "plt.imshow(image)                                                                            #読み込んだ画像を表示設定\n",
     "plt.show()                                                                                   #画像の表示\n",
