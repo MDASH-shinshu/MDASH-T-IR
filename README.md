@@ -52,6 +52,12 @@
 * DE基礎(2024) <https://lms.ealps.shinshu-u.ac.jp/2024/t/course/view.php?id=401>
 * AI基礎(2024) <https://lms.ealps.shinshu-u.ac.jp/2024/t/course/view.php?id=595>
 
+## 工学部 学部共通科目 データサイエンス科目（2025 R7年度版）　URL
+
+* DS基礎(2025)
+* DE基礎(2025) 
+* AI基礎(2025)
+
 ## 学外連携・その他 eALPS URL
 
 ### 経産省 共同研究講座
@@ -89,5 +95,5 @@
 
 # jupyter notebook viewer
 
-* sec.3のノートブックを直接表示する例
-https://nbviewer.org/github/MDASH-shinshu/MDASH-T-DS/blob/main/3/3_data_search_and_visualization_colab.ipynb
+* A0のノートブックを直接表示する例
+https://nbviewer.org/github/MDASH-shinshu/MDASH-T-IR/blob/main/A0/A0_MLP_colab.ipynb
